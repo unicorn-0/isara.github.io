@@ -1,0 +1,369 @@
+@media　(max-width:768px ) {
+.header-list {
+  width: 100%;
+}
+}
+
+body {
+  margin: 0;
+}
+
+i {
+  margin-right: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+.header-list {
+  height: 60px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header-logo {
+  display: inline-block;
+  position: relative;
+}
+
+.header-logo img {
+  height: 50px;
+  width: 100%;
+}
+
+
+.header-logo span::after {
+  content: "バンコクのノマドエンジニア育成講座";
+  position: absolute;
+  bottom: 8px;
+  right: -220px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header-btn {
+  cursor: pointer;
+  padding: 15px 40px;
+  background-color: #da6b64;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 11px;
+  transition: 0.3s;
+}
+
+.header-btn:hover {
+  background-color: #d84940;
+  transition: 0.3s;
+}
+
+.header-main {
+  width: 100%;
+  height: 530px;
+  background-image: url("../img/main.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.logo h2{
+  letter-spacing: 5px;
+}
+
+.logo img{
+  width: 50%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.logo p{
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.header-container {
+  background-color: #ebb94d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-text p {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.caution h4{
+  font-size: 15px;
+  padding: 0 3px ;
+  color: #c7254e;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f9f2f4;
+}
+
+.container-btn h4{
+  margin-top: 0;
+  padding: 40px 0;
+  border-radius: 50px;
+  background-color: #da6b64;
+  color: #f9f2f4;
+  font-size: 30px;
+}
+
+.container-text h3 {
+  padding: 5px;
+  color: #f9f2f4;
+}
+
+.twitter {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweet {
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 3px;
+  background-color: #1b95e0;
+  color: #fff;
+  padding: 1px 10px;
+  line-height: 22px;
+}
+
+.nice {
+  cursor: pointer;
+  background-color: #4267b2;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 22px;
+  padding: 1px 10px;
+}
+
+.shere {
+  cursor: pointer;
+  background-color: #4267b2;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 22px;
+  padding: 1px 10px;
+}
+
+.middle-top {
+  text-align: center;
+  background-image: url("../img/introbottom.jpeg");
+  background-size: 100% 100%;
+  padding: 40px 0 130px 0;
+}
+
+.middle-logo {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.middle-logo::before {
+  content:"";
+  width: 5%;
+  height: 50%;
+  border-top: 4px solid #ebb94d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.middle-logo::after {
+  content:"";
+  width: 5%;
+  border-bottom: 4px solid #ebb94d;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.middle-logo h2 {
+  margin-top: 0;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.middle-logo h2::before {
+  content:"";
+  height: 50%;
+  border-left: 4px solid #ebb94d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.middle-logo h2::after {
+  content:"";
+  height: 50%;
+  border-right: 4px solid #ebb94d;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.logo-text {
+  padding: 30px 0;
+}
+
+.logo-text p {
+  font-size: 19px;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+
+.middle-top span{
+  font-weight: bold;
+  border-bottom: 5px solid #ebb94d;
+}
+
+.about-line {
+  text-align: center;
+  position: relative;
+  top: -40px;
+  z-index: 10;
+}
+
+.about {
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #ebb94d;
+}
+
+.contents {
+  background-color: #fef5e0;
+  position: relative;
+  top: -80px;
+  z-index: 5;
+  padding: 100px;
+}
+
+.contents-logo h2 {
+  margin-top: 0;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.contents-logo {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.contents-logo::before {
+  content:"";
+  width: 5%;
+  height: 50%;
+  border-top: 4px solid #ebb94d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contents-logo::after {
+  content:"";
+  width: 5%;
+  border-bottom: 4px solid #ebb94d;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.contents-logo h2::before {
+  content:"";
+  height: 50%;
+  border-left: 4px solid #ebb94d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contents-logo h2::after {
+  content:"";
+  height: 50%;
+  border-right: 4px solid #ebb94d;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.contents p{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.skill-box {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid #ebb94d;
+  border-radius: 3px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.skill-box p {
+  text-align: center;
+}
+
+.skills {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.skill {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill img {
+  height: 60px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.skill p{
+  font-size: 11px;
+  font-weight: lighter;
+  padding: 0 10px;
+}
